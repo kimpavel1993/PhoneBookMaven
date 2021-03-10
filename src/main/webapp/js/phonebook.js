@@ -110,7 +110,7 @@ new Vue({
 
         clearSearch: function () {
             this.term = "";
-            this.loadData()
+            this.loadData();
         },
 
         loadData: function () {
